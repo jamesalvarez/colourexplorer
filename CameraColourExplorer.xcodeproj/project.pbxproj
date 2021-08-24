@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2D16361F603EDB008629FD /* SoundController.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D162E1F603EDB008629FD /* SoundController.c */; };
+		1A2D16371F603EDB008629FD /* MaximilianSounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D162F1F603EDB008629FD /* MaximilianSounds.cpp */; };
+		1A2D16381F603EDB008629FD /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 1A2D16321F603EDB008629FD /* audio */; };
+		1A2D16391F603EDB008629FD /* libs in Resources */ = {isa = PBXBuildFile; fileRef = 1A2D16331F603EDB008629FD /* libs */; };
+		1A2D163A1F603EDB008629FD /* maximilian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D16341F603EDB008629FD /* maximilian.cpp */; };
+		1A2D163E1F603F6B008629FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2D163B1F603F6B008629FD /* AudioToolbox.framework */; };
+		1A2D163F1F603F6B008629FD /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2D163C1F603F6B008629FD /* CoreAudio.framework */; };
+		1A2D16401F603F6B008629FD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2D163D1F603F6B008629FD /* CoreFoundation.framework */; };
+		1A2D16431F60404E008629FD /* ColourConversions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D16411F60404E008629FD /* ColourConversions.c */; };
+		1A555F401F35CEDC00F5E685 /* ColourProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A555F3F1F35CEDC00F5E685 /* ColourProcessor.m */; };
+		1A6D337F1F17725E00DA4250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D337E1F17725E00DA4250 /* main.m */; };
+		1A6D33821F17725E00DA4250 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D33811F17725E00DA4250 /* AppDelegate.mm */; };
+		1A6D338A1F17725E00DA4250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D33891F17725E00DA4250 /* Assets.xcassets */; };
+		1A6D338D1F17725E00DA4250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D338B1F17725E00DA4250 /* LaunchScreen.storyboard */; };
+		1A6D339F1F1775CA00DA4250 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D339E1F1775CA00DA4250 /* opencv2.framework */; };
+		1A6D33A11F177E4500DA4250 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A01F177E4500DA4250 /* QuartzCore.framework */; };
+		1A6D33AA1F177E6800DA4250 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A21F177E6800DA4250 /* Accelerate.framework */; };
+		1A6D33AB1F177E6800DA4250 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A31F177E6800DA4250 /* AVFoundation.framework */; };
+		1A6D33AC1F177E6800DA4250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A41F177E6800DA4250 /* CoreGraphics.framework */; };
+		1A6D33AD1F177E6800DA4250 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A51F177E6800DA4250 /* CoreImage.framework */; };
+		1A6D33AE1F177E6800DA4250 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A61F177E6800DA4250 /* CoreMedia.framework */; };
+		1A6D33AF1F177E6800DA4250 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A71F177E6800DA4250 /* CoreVideo.framework */; };
+		1A6D33B01F177E6800DA4250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A81F177E6800DA4250 /* Foundation.framework */; };
+		1A6D33B11F177E6800DA4250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33A91F177E6800DA4250 /* UIKit.framework */; };
+		1A6D33B31F17840800DA4250 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33B21F17840800DA4250 /* AssetsLibrary.framework */; };
+		1A6D33B51F17853800DA4250 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33B41F17853800DA4250 /* Photos.framework */; };
+		1A6D33BA1F1796E700DA4250 /* ImgEnhancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D33B81F1796E700DA4250 /* ImgEnhancer.cpp */; };
+		1A6D33C61F179D3100DA4250 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D33BE1F179D3100DA4250 /* NavigationController.m */; };
+		1A6D33C71F179D3100DA4250 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D33C01F179D3100DA4250 /* MainViewController.mm */; };
+		1A6D33C81F179D3100DA4250 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D33C11F179D3100DA4250 /* MainStoryboard.storyboard */; };
+		1A6D33C91F179D3100DA4250 /* VideoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D33C31F179D3100DA4250 /* VideoViewController.mm */; };
+		1A6D33CA1F179D3100DA4250 /* PhotoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D33C51F179D3100DA4250 /* PhotoViewController.mm */; };
+		1A6D33CC1F17A0E700DA4250 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6D33CB1F17A0E700DA4250 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2D162E1F603EDB008629FD /* SoundController.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SoundController.c; sourceTree = "<group>"; };
+		1A2D162F1F603EDB008629FD /* MaximilianSounds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximilianSounds.cpp; sourceTree = "<group>"; };
+		1A2D16301F603EDB008629FD /* MaximilianSounds.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MaximilianSounds.hpp; sourceTree = "<group>"; };
+		1A2D16311F603EDB008629FD /* SoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundController.h; sourceTree = "<group>"; };
+		1A2D16321F603EDB008629FD /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		1A2D16331F603EDB008629FD /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libs; sourceTree = "<group>"; };
+		1A2D16341F603EDB008629FD /* maximilian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maximilian.cpp; sourceTree = "<group>"; };
+		1A2D16351F603EDB008629FD /* maximilian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maximilian.h; sourceTree = "<group>"; };
+		1A2D163B1F603F6B008629FD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A2D163C1F603F6B008629FD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1A2D163D1F603F6B008629FD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1A2D16411F60404E008629FD /* ColourConversions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ColourConversions.c; sourceTree = "<group>"; };
+		1A2D16421F60404E008629FD /* ColourConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourConversions.h; sourceTree = "<group>"; };
+		1A555F3E1F35CEDC00F5E685 /* ColourProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColourProcessor.h; sourceTree = "<group>"; };
+		1A555F3F1F35CEDC00F5E685 /* ColourProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColourProcessor.m; sourceTree = "<group>"; };
+		1A6D337A1F17725E00DA4250 /* CameraColourExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraColourExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D337E1F17725E00DA4250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A6D33801F17725E00DA4250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A6D33811F17725E00DA4250 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		1A6D33891F17725E00DA4250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6D338C1F17725E00DA4250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6D338E1F17725E00DA4250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D339B1F17730100DA4250 /* CameraColourExplorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraColourExplorer-Prefix.pch"; sourceTree = "<group>"; };
+		1A6D339E1F1775CA00DA4250 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		1A6D33A01F177E4500DA4250 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A6D33A21F177E6800DA4250 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1A6D33A31F177E6800DA4250 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1A6D33A41F177E6800DA4250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A6D33A51F177E6800DA4250 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1A6D33A61F177E6800DA4250 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1A6D33A71F177E6800DA4250 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1A6D33A81F177E6800DA4250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A6D33A91F177E6800DA4250 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A6D33B21F17840800DA4250 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1A6D33B41F17853800DA4250 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		1A6D33B81F1796E700DA4250 /* ImgEnhancer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImgEnhancer.cpp; sourceTree = "<group>"; };
+		1A6D33B91F1796E700DA4250 /* ImgEnhancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgEnhancer.h; sourceTree = "<group>"; };
+		1A6D33BD1F179D3100DA4250 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		1A6D33BE1F179D3100DA4250 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		1A6D33BF1F179D3100DA4250 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1A6D33C01F179D3100DA4250 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		1A6D33C11F179D3100DA4250 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1A6D33C21F179D3100DA4250 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		1A6D33C31F179D3100DA4250 /* VideoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoViewController.mm; sourceTree = "<group>"; };
+		1A6D33C41F179D3100DA4250 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		1A6D33C51F179D3100DA4250 /* PhotoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhotoViewController.mm; sourceTree = "<group>"; };
+		1A6D33CB1F17A0E700DA4250 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6D33771F17725E00DA4250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2D163E1F603F6B008629FD /* AudioToolbox.framework in Frameworks */,
+				1A2D163F1F603F6B008629FD /* CoreAudio.framework in Frameworks */,
+				1A2D16401F603F6B008629FD /* CoreFoundation.framework in Frameworks */,
+				1A6D33CC1F17A0E700DA4250 /* MobileCoreServices.framework in Frameworks */,
+				1A6D33B51F17853800DA4250 /* Photos.framework in Frameworks */,
+				1A6D33B31F17840800DA4250 /* AssetsLibrary.framework in Frameworks */,
+				1A6D33AA1F177E6800DA4250 /* Accelerate.framework in Frameworks */,
+				1A6D33AB1F177E6800DA4250 /* AVFoundation.framework in Frameworks */,
+				1A6D33AC1F177E6800DA4250 /* CoreGraphics.framework in Frameworks */,
+				1A6D33AD1F177E6800DA4250 /* CoreImage.framework in Frameworks */,
+				1A6D33AE1F177E6800DA4250 /* CoreMedia.framework in Frameworks */,
+				1A6D33AF1F177E6800DA4250 /* CoreVideo.framework in Frameworks */,
+				1A6D33B01F177E6800DA4250 /* Foundation.framework in Frameworks */,
+				1A6D33B11F177E6800DA4250 /* UIKit.framework in Frameworks */,
+				1A6D33A11F177E4500DA4250 /* QuartzCore.framework in Frameworks */,
+				1A6D339F1F1775CA00DA4250 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6D33711F17725E00DA4250 = {
+			isa = PBXGroup;
+			children = (
+				1A6D337C1F17725E00DA4250 /* CameraColourExplorer */,
+				1A6D337B1F17725E00DA4250 /* Products */,
+				1A6D33941F17729400DA4250 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6D337B1F17725E00DA4250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D337A1F17725E00DA4250 /* CameraColourExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6D337C1F17725E00DA4250 /* CameraColourExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D16321F603EDB008629FD /* audio */,
+				1A2D16331F603EDB008629FD /* libs */,
+				1A2D16341F603EDB008629FD /* maximilian.cpp */,
+				1A2D16351F603EDB008629FD /* maximilian.h */,
+				1A6D339E1F1775CA00DA4250 /* opencv2.framework */,
+				1A6D33801F17725E00DA4250 /* AppDelegate.h */,
+				1A6D33811F17725E00DA4250 /* AppDelegate.mm */,
+				1A555F3E1F35CEDC00F5E685 /* ColourProcessor.h */,
+				1A555F3F1F35CEDC00F5E685 /* ColourProcessor.m */,
+				1A2D16411F60404E008629FD /* ColourConversions.c */,
+				1A2D16421F60404E008629FD /* ColourConversions.h */,
+				1A2D162F1F603EDB008629FD /* MaximilianSounds.cpp */,
+				1A2D16301F603EDB008629FD /* MaximilianSounds.hpp */,
+				1A2D16311F603EDB008629FD /* SoundController.h */,
+				1A2D162E1F603EDB008629FD /* SoundController.c */,
+				1A6D33BD1F179D3100DA4250 /* NavigationController.h */,
+				1A6D33BE1F179D3100DA4250 /* NavigationController.m */,
+				1A6D33BF1F179D3100DA4250 /* MainViewController.h */,
+				1A6D33C01F179D3100DA4250 /* MainViewController.mm */,
+				1A6D33C21F179D3100DA4250 /* VideoViewController.h */,
+				1A6D33C31F179D3100DA4250 /* VideoViewController.mm */,
+				1A6D33C41F179D3100DA4250 /* PhotoViewController.h */,
+				1A6D33C51F179D3100DA4250 /* PhotoViewController.mm */,
+				1A6D33B81F1796E700DA4250 /* ImgEnhancer.cpp */,
+				1A6D33B91F1796E700DA4250 /* ImgEnhancer.h */,
+				1A6D33891F17725E00DA4250 /* Assets.xcassets */,
+				1A6D33C11F179D3100DA4250 /* MainStoryboard.storyboard */,
+				1A6D338B1F17725E00DA4250 /* LaunchScreen.storyboard */,
+				1A6D338E1F17725E00DA4250 /* Info.plist */,
+				1A6D337D1F17725E00DA4250 /* Supporting Files */,
+			);
+			path = CameraColourExplorer;
+			sourceTree = "<group>";
+		};
+		1A6D337D1F17725E00DA4250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D339B1F17730100DA4250 /* CameraColourExplorer-Prefix.pch */,
+				1A6D337E1F17725E00DA4250 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A6D33941F17729400DA4250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D163B1F603F6B008629FD /* AudioToolbox.framework */,
+				1A2D163C1F603F6B008629FD /* CoreAudio.framework */,
+				1A2D163D1F603F6B008629FD /* CoreFoundation.framework */,
+				1A6D33CB1F17A0E700DA4250 /* MobileCoreServices.framework */,
+				1A6D33B41F17853800DA4250 /* Photos.framework */,
+				1A6D33B21F17840800DA4250 /* AssetsLibrary.framework */,
+				1A6D33A21F177E6800DA4250 /* Accelerate.framework */,
+				1A6D33A31F177E6800DA4250 /* AVFoundation.framework */,
+				1A6D33A41F177E6800DA4250 /* CoreGraphics.framework */,
+				1A6D33A51F177E6800DA4250 /* CoreImage.framework */,
+				1A6D33A61F177E6800DA4250 /* CoreMedia.framework */,
+				1A6D33A71F177E6800DA4250 /* CoreVideo.framework */,
+				1A6D33A81F177E6800DA4250 /* Foundation.framework */,
+				1A6D33A91F177E6800DA4250 /* UIKit.framework */,
+				1A6D33A01F177E4500DA4250 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6D33791F17725E00DA4250 /* CameraColourExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D33911F17725E00DA4250 /* Build configuration list for PBXNativeTarget "CameraColourExplorer" */;
+			buildPhases = (
+				1A6D33761F17725E00DA4250 /* Sources */,
+				1A6D33771F17725E00DA4250 /* Frameworks */,
+				1A6D33781F17725E00DA4250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraColourExplorer;
+			productName = CameraColourExplorer;
+			productReference = 1A6D337A1F17725E00DA4250 /* CameraColourExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6D33721F17725E00DA4250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = James;
+				TargetAttributes = {
+					1A6D33791F17725E00DA4250 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7M9C479L4K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A6D33751F17725E00DA4250 /* Build configuration list for PBXProject "CameraColourExplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6D33711F17725E00DA4250;
+			productRefGroup = 1A6D337B1F17725E00DA4250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6D33791F17725E00DA4250 /* CameraColourExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6D33781F17725E00DA4250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2D16391F603EDB008629FD /* libs in Resources */,
+				1A6D338D1F17725E00DA4250 /* LaunchScreen.storyboard in Resources */,
+				1A6D338A1F17725E00DA4250 /* Assets.xcassets in Resources */,
+				1A6D33C81F179D3100DA4250 /* MainStoryboard.storyboard in Resources */,
+				1A2D16381F603EDB008629FD /* audio in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6D33761F17725E00DA4250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D337F1F17725E00DA4250 /* main.m in Sources */,
+				1A2D163A1F603EDB008629FD /* maximilian.cpp in Sources */,
+				1A2D16371F603EDB008629FD /* MaximilianSounds.cpp in Sources */,
+				1A6D33821F17725E00DA4250 /* AppDelegate.mm in Sources */,
+				1A6D33C91F179D3100DA4250 /* VideoViewController.mm in Sources */,
+				1A2D16431F60404E008629FD /* ColourConversions.c in Sources */,
+				1A6D33BA1F1796E700DA4250 /* ImgEnhancer.cpp in Sources */,
+				1A6D33CA1F179D3100DA4250 /* PhotoViewController.mm in Sources */,
+				1A6D33C71F179D3100DA4250 /* MainViewController.mm in Sources */,
+				1A6D33C61F179D3100DA4250 /* NavigationController.m in Sources */,
+				1A555F401F35CEDC00F5E685 /* ColourProcessor.m in Sources */,
+				1A2D16361F603EDB008629FD /* SoundController.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A6D338B1F17725E00DA4250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D338C1F17725E00DA4250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6D338F1F17725E00DA4250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6D33901F17725E00DA4250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6D33921F17725E00DA4250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				DEVELOPMENT_TEAM = 7M9C479L4K;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CameraColourExplorer",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CameraColourExplorer/CameraColourExplorer-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = CameraColourExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesalvarez.CameraColourExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6D33931F17725E00DA4250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_UNREACHABLE_CODE = NO;
+				DEVELOPMENT_TEAM = 7M9C479L4K;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CameraColourExplorer",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CameraColourExplorer/CameraColourExplorer-Prefix.pch";
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = CameraColourExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesalvarez.CameraColourExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6D33751F17725E00DA4250 /* Build configuration list for PBXProject "CameraColourExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D338F1F17725E00DA4250 /* Debug */,
+				1A6D33901F17725E00DA4250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D33911F17725E00DA4250 /* Build configuration list for PBXNativeTarget "CameraColourExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D33921F17725E00DA4250 /* Debug */,
+				1A6D33931F17725E00DA4250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6D33721F17725E00DA4250 /* Project object */;
+}

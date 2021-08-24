@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="mJs-T8-f5o">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Video View-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="VideoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qmv-nz-gnc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Te8-1O-9Yl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gtJ-3a-oge">
+                                <rect key="frame" x="0.0" y="64" width="375" height="500"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50x-Bg-dFS">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="VPw-i9-Vfj">
+                                        <connections>
+                                            <action selector="cameraBtnPressed:" destination="2" id="9mU-j3-wBp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" systemItem="save" id="uaa-dl-Mfj">
+                                        <connections>
+                                            <action selector="saveBtnPressed:" destination="2" id="Zwz-Bd-iaK"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="47a-ac-Fkc"/>
+                                    <barButtonItem style="plain" id="2F4-Vg-rqK">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" id="nVk-ej-Hfs">
+                                            <rect key="frame" x="239" y="0.0" width="120" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Off"/>
+                                                <segment title="On"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="setModeSelector:" destination="2" eventType="valueChanged" id="L8c-SI-oNh"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vvq-AR-s83">
+                                <rect key="frame" x="0.0" y="572" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxJ-0m-eS6">
+                                <rect key="frame" x="58" y="572" width="317" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video View" id="e7E-Rh-7Bl">
+                        <barButtonItem key="rightBarButtonItem" title="Help" id="6rE-pg-CTT"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="captureImgViewer" destination="gtJ-3a-oge" id="uPW-mT-Dc3"/>
+                        <outlet property="colourPreviewView" destination="Vvq-AR-s83" id="cd3-p9-olX"/>
+                        <outlet property="contentView" destination="3" id="4nN-EH-SqR"/>
+                        <outlet property="feedbackLabel" destination="TxJ-0m-eS6" id="NWA-LP-cNl"/>
+                        <outlet property="modeSelector" destination="nVk-ej-Hfs" id="DhL-gE-rod"/>
+                        <outlet property="saveBtn" destination="uaa-dl-Mfj" id="e1a-ws-AQa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.5" y="476.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qhV-ze-weY">
+            <objects>
+                <navigationController id="mJs-T8-f5o" customClass="NavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rWk-Do-qnZ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vbc-Uy-B4y" kind="relationship" relationship="rootViewController" id="PS7-a4-3f4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LvP-OP-em0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="-81"/>
+        </scene>
+        <!--Colour Explorer-->
+        <scene sceneID="BIQ-pt-iXX">
+            <objects>
+                <viewController id="vbc-Uy-B4y" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lC1-d8-aCr"/>
+                        <viewControllerLayoutGuide type="bottom" id="0nt-nB-emZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u2g-cn-1Yh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLh-uP-eKk">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ar1-6q-yDB"/>
+                                    <barButtonItem title="Video" id="pWr-IU-dtC">
+                                        <connections>
+                                            <segue destination="2" kind="push" id="JYL-hT-qiD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vPu-ug-BY7"/>
+                                    <barButtonItem title="Photo" id="yaF-m3-mp4">
+                                        <connections>
+                                            <segue destination="fpZ-ka-xNF" kind="push" id="yYI-8w-dx3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="X9l-9Q-R2u"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Colour Explorer" id="vAV-0E-fvy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzd-uJ-NZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="477" y="-70"/>
+        </scene>
+        <!--Photo View-->
+        <scene sceneID="sea-sI-THX">
+            <objects>
+                <viewController id="fpZ-ka-xNF" customClass="PhotoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Av8-rF-xka"/>
+                        <viewControllerLayoutGuide type="bottom" id="I1O-R5-o7f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zvc-gg-6zV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RfT-PH-sd2">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YRi-2g-UN5"/>
+                                    <barButtonItem title="Open" width="79" id="NsP-j5-xAt">
+                                        <connections>
+                                            <action selector="openBtnPressed:" destination="fpZ-ka-xNF" id="5ZY-e2-oyW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="t3K-f7-zyS"/>
+                                    <barButtonItem enabled="NO" style="plain" id="tD6-lu-tF9">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" id="UDS-lX-uim">
+                                            <rect key="frame" x="127.5" y="0.0" width="120" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Off"/>
+                                                <segment title="On"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="processBtnPressed:" destination="fpZ-ka-xNF" eventType="valueChanged" id="YOd-du-sqQ"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NYQ-sG-awA"/>
+                                    <barButtonItem enabled="NO" title="Save" width="79" id="DfP-Ws-h0X">
+                                        <connections>
+                                            <action selector="saveBtnPressed:" destination="fpZ-ka-xNF" id="eyH-M4-YoQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bb1-HH-OU0"/>
+                                </items>
+                            </toolbar>
+                            <imageView contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wDp-hb-1zF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="499"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEg-hd-82e">
+                                <rect key="frame" x="58" y="571" width="317" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="11R-i8-sYm">
+                                <rect key="frame" x="0.0" y="571" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Photo View" id="ECv-ZX-Cmh">
+                        <barButtonItem key="rightBarButtonItem" title="Help" id="C5q-Nr-zMp"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="colourPreviewView" destination="11R-i8-sYm" id="wwP-B5-qfP"/>
+                        <outlet property="contentView" destination="Zvc-gg-6zV" id="8kh-dZ-8pC"/>
+                        <outlet property="feedbackLabel" destination="IEg-hd-82e" id="fMz-tD-93q"/>
+                        <outlet property="modeSelector" destination="UDS-lX-uim" id="dGA-LL-BoB"/>
+                        <outlet property="photoView" destination="wDp-hb-1zF" id="qOg-iW-8bx"/>
+                        <outlet property="saveBtn" destination="DfP-Ws-h0X" id="9Zn-Dm-wzy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rgd-c6-Sfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960.5" y="-270.5"/>
+        </scene>
+    </scenes>
+</document>
