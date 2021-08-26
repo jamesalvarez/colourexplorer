@@ -2,7 +2,7 @@
 
 An iOS app that allows the sonification of a videos and images, producing sounds in response to colors as you scan your fingertip over the image. Load your own images and videos, and hear the sound they make! Will also be available to download from the iPhone App store soon.
 
-Made by [Giles Hamilton-Fletcher]([Giles Hamilton-Fletcher](https://twitter.com/Gilouxy) at NYU Langone Health) at NYU Langone Health, [Jamie Ward](https://profiles.sussex.ac.uk/p92444-jamie-ward) and [James Alvarez](https://jamesalvarez.co.uk/) at the University of Sussex.
+Made by [Giles Hamilton-Fletcher](https://twitter.com/Gilouxy) at NYU Langone Health, [Jamie Ward](https://profiles.sussex.ac.uk/p92444-jamie-ward) and [James Alvarez](https://jamesalvarez.co.uk/) at the University of Sussex.
 
 # Research background
 Our choice of sound-color mappings has been shown in published research to be intuitive to learn [1], and has generated interest amongst potential blind users for exploring the visual world with sound [2]. In these studies, we refer to the app as ‘Creole’ as it blends tactile exploration with sonification.
